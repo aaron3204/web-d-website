@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> K-Mart </title>
+    <link rel="icon" href="images/site/icon.png" type="image/gif" sizes="16x16">
+    <script src="js/jQuery3.4.1.js"></script>
+    <link rel="stylesheet" href="css/slider1.css">
+    <link rel="stylesheet" href="css/slider2.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="1"></div>
+
+    <link rel="stylesheet" href="css/header.css">
+    <header>
+        <section>
+            <div id="container">
+                <div id="shopName"><a href="index.html"> <b>K-</b>Mart </a></div>
+                    <div id="collection">
+                        <div id="clothing"  class="ic"><a href="#Clothing" > CLOTHING </a></div>
+                        <div id="accessories" class="ic"><a href="#Accessories"> ACCESSORIES </a></div>
+                        <div id="aboutus" class="ic"><a href="pages/aboutus.html"> ABOUT</a></div>
+                    </div>
+                    <div>
+                        <div id="search">
+                            <img id="searchimg" src="images/site/search.png">
+                            <input type="text" id="input" name="searchBox" placeholder="Search">
+                        </div>
+                    </div>
+                    <div id="user">
+                        <a href="pages/signin.html"> <img id="userimg" src="images/site/user.png"></i> </a>
+                    </div>
+            </div>
+        </section>
+    </header>
+    <!-- SLIDER -->
+    <div id="2"></div>
+    <link rel="stylesheet" href="css/slider.css">
+    <section>
+        <div id="containerSlider">
+            <div id="slidingImage"> <img src="images/slider/img1.png" alt="image1"> </div>
+            <div id="slidingImage"> <img src="images/slider/img2.png" alt="image2"> </div>
+            <div id="slidingImage"> <img src="images/slider/img3.png" alt="image3"> </div>
+            <div id="slidingImage"> <img src="images/slider/img4.png" alt="image4"> </div>
+            <div id="slidingImage"> <img src="images/slider/img5.png" alt="image5"> </div>
+        </div>
+    </section>
+    <script src="js/slider.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+        $('#containerSlider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            });
+        });
+    </script>
+
+    <!-- CONTENT -->
+    <div id="3"></div>
+    
+    <link rel="stylesheet" href="css/content.css">
+    <div id="mainContainer">
+        <div id="Clothing">
+            <br><br><br>
+        <h1> clothing for men and women </h1>
+        </div>
+        <div id="containerClothing">
+            <div id="box">
+                <a href="pages/man1.html">
+                <img src="images/clothing/man1.webp">
+                <div id="details">
+                    <h3>Men Navy Blue Solid Sweatshirt</h3>
+                    <h4>United Colors of Benetton</h4>
+                    <h2>rs  2599</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/man2.html">
+                <img src="images/clothing/man2.webp">
+                <div id="details">
+                    <h3>Men Black Sporty Jacket</h3>
+                    <h4>Puma</h4>
+                    <h2>rs  7999</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/shoe1.html">
+                <img src="images/clothing/shoe1.webp">
+                <div id="details">
+                    <h3>Men Black Lifestyle Shoes</h3>
+                    <h4>Hush Puppies</h4>
+                    <h2>rs  6999</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/woman1.html">
+                <img src="images/clothing/woman1.webp">
+                <div id="details">
+                    <h3>Women Black Leather Jacket</h3>
+                    <h4>bareskin</h4>
+                    <h2>rs 9999</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box"><a href="pages/woman2.html">
+                <img src="images/clothing/woman2.webp">
+                <div id="details">
+                    <h3>Women Blue Solid Shirt Dress</h3>
+                    <h4>SASSAFRAS</h4>
+                    <h2>rs  5200</h2>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div id="Accessories">
+            <br><br><br>
+        <h1> accessories for men and women </h1>
+        </div>
+        <div id="containerAccessories">
+            <div id="box">
+                <a href="pages/watch1.html">
+                <img src="images/accessories/watch1.webp">
+                <div id="details">
+                    <h3>Unisex Silver-Toned Series 3 Smart Watch</h3>
+                    <h4>Apple</h4>
+                    <h2>rs  31999</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/watch2.html">
+                <img src="images/accessories/watch2.webp">
+                <div id="details">
+                    <h3>Unisex Black &amp; Green Reflex 2.0 Smart Band</h3>
+                    <h4>Fastrack</h4>
+                    <h2>rs  1999</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/watch3.html">
+                <img src="images/accessories/watch3.webp">
+                <div id="details">
+                    <h3>Unisex Black Galaxy Fit Fitness Band</h3>
+                    <h4>Samsung</h4>
+                    <h2>rs  9990</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/buds1.html">
+                <img src="images/accessories/buds1.webp">
+                <div id="details">
+                    <h3>Gear IconX Black Cord-free Fitness Earbuds</h3>
+                    <h4>Samsung</h4>
+                    <h2>rs  13990</h2>
+                </div>
+                </a>
+            </div>
+            <div id="box">
+                <a href="pages/buds2.html">
+                <img src="images/accessories/buds2.webp">
+                <div id="details">
+                    <h3>White 2nd Gen AirPods with Charging Case</h3>
+                    <h4>Apple</h4>
+                    <h2>rs  14999</h2>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="content.js"></script>
+
+    <!-- FOOTER -->
+    <div id="4"></div>
+    <link rel="stylesheet" href="css/footer.css">
+    <footer>
+        <section>    
+            <div id="containerFooter">
+                <div id="webFooter">
+                    <h3> online store </h3>
+                    <p> men's clothing </p>
+                    <p> women's clothing </p>
+                    <p> men's accessories </p>
+                    <p> women's accessories </p>
+                </div>
+                <div id="webFooter" >
+                    <h3> helpful links </h3>
+                    <p><a href="index.html" class="ll">Home</a></p>
+                    <p><a href="pages/aboutus.html" class="ll">About </a></p>
+                    <p><a href="pages/aboutus.html" class="ll">Contact </a></p>
+
+                </div>
+                <div id="webFooter">
+                    <h3> partners </h3>
+                    <p> Boat </p>
+                    <p> Titan </p>
+                    <p> Overlays </p>
+                    <p> Siyaram </p>
+                </div>
+                <div id="webFooter">
+                    <h3> address </h3>
+                    <p> NIT Kurukshetra</p>
+                    <p> Kurukshetra</p>
+                    <p> Haryana - 136119 </p>
+                    <p> India </p>
+                </div>
+            </div>
+            <div class="social-list">
+
+                <div>
+                  <a href="https://www.twitter.com" class="social-link" target="_blank">
+                    <img src="images/socials/twitter.png" alt="" width="30px" class="linkimg">
+                  </a>
+                </div>
+      
+                <div>
+                  <a href="https://www.facebook.com" class="social-link" target="_blank">
+                    <img src="images/socials/facebook.png" alt="" width="30px" class="linkimg">
+                  </a>
+                </div>
+      
+                <div>
+                  <a href="https://www.linkedin.com" class="social-link" target="_blank">
+                    <img src="images/socials/linkedin.png" alt="" width="30px" class="linkimg">
+                  </a>
+                </div>
+      
+                <div>
+                  <a href="https://www.github.com" class="social-link" target="_blank">
+                    <img src="images/socials/github.png" alt="" width="30px" class="linkimg">
+                  </a>
+                </div>
+            </div>
+            <div id="credit" ><p class="cred"> © Team Chhota Bheem | K-MART </p></div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
